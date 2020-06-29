@@ -1,0 +1,1428 @@
+@media screen  and (max-width: 375px) {
+	
+	
+#content_header a #logo{
+	width:230px;
+	margin:0px auto;
+}
+#facebook_icon{
+	width:20px;
+	margin:5px;
+}
+
+.toggle{
+	display:block;
+	width:100%;
+	float:left;
+	box-sizing:border-box;
+	z-index:100;
+	
+	
+}
+#fa_bar{
+	width:30px;
+	color:black;
+}
+
+#nav{
+	margin:0px;
+	padding:0px;
+	z-index:100;
+
+}
+
+#nav ul{
+	z-index:100;
+}
+
+#nav ul li{
+	width:100%;
+	display:block;
+	text-align:center;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:0px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+	z-index:100;
+}
+
+#header nav ul li.open{
+	height:auto;
+	z-index:100;
+}
+
+#nav ul li a{
+	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:3px solid black;
+	box-sizing:border-box;
+	font-size:30px;
+	margin:0px;
+	padding:20px 0px;
+	z-index:100;
+}
+
+#slide{
+	float:left;
+	width:100%;
+	height:150px;
+	position:relative;
+	top:0px;
+	margin-bottom:20px;
+}
+
+.img{
+	height:150px;
+	
+}
+#contact_header{
+	width:100%;
+	position:relative;
+	top:-80px;
+	float:left;
+	
+}
+#contact_social{
+	width:220px;
+	padding:15px;
+}
+#contact_social2{
+	width:220px;
+	padding:15px 0px;
+}
+#contact_social2 p{
+	font-size:13px;
+	padding:4px 0px;
+}
+
+#despre h1{
+	
+	font-size:45px;
+	padding:20px 0px;
+	margin-top:0px;
+}
+
+#despre p{
+	color:white;
+	font-size:15px;
+}
+
+#despre #paragraf{
+	padding:20px 60px;
+}
+
+#confort h1{
+	font-size:45px;
+	padding:30px 0px;
+}
+
+
+#confort_imagini {
+	display:flex;
+	width:100%;
+	justify-content:space-around;
+	padding:0px 30px;
+	flex-wrap:wrap;
+}
+#confort_imagini div{
+	width:250px;
+	margin-bottom:10px;
+}
+
+
+#confort_imagini p{
+	color:black;
+}
+
+#confort_imagini img{
+	width:250px;
+
+}
+
+#contact_index{
+	display:flex;
+	width:100%;
+	justify-content:space-around;
+	margin:20px 0px;
+	box-sizing:border-box;
+	padding:30px 50px;
+	text-align:center;
+	flex-wrap:wrap;
+}
+
+#contact_index p{
+	padding:5px 0px;
+}
+#contact_index div{
+	flex-basis:100%;
+	padding:0px;
+	box-sizing:border-box;
+	
+}
+
+#facilitati h2, #continut_contact h2, #harta_locatie h2{
+	padding:30px 0px;
+	border-bottom:2px solid white;
+}
+
+
+#harta iframe{
+	width:300px;
+	height:200px;
+	border:0px;
+}
+
+
+
+/*			GALERIE			*/
+
+#galerie h1{
+	font-size:45px;
+	padding:30px 0px;
+
+}
+/*			TARIFE			*/
+
+
+#tarife h1{
+	font-size:45px;
+	padding:30px 0px;
+	margin-top:0px;
+}
+
+#tarif{
+	font-size:12px;
+}
+#facilitati_tarife{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+#facilitati_unitate{
+	flex-basis:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+
+#facilitati_camera{
+	flex-basis:100%;
+}
+
+#facilitati_unitate div{
+	flex:1;
+}
+#facilitati_unitate2{
+	margin-top:0px;
+}
+
+#facilitati_camera h2{
+	margin-top:20px;
+}
+
+/*			CONTACT			*/
+
+#pagina_contact{
+	margin-top:30px;
+}
+#pagina_contact h1{
+	font-size:45px;
+	padding:30px 0px;
+}
+#date_contact{
+	margin-top:20px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	
+}
+
+#date_contact div{
+	flex:1;
+	flex-basis:100%;
+	box-sizing:border-box;
+}
+
+#harta2 iframe{
+	width:250px;
+	height:200px;
+}
+
+
+#footer{
+	font-size:14px;
+	padding:20px 10px;
+}
+
+}
+
+@media screen  and (min-width: 375px) and (max-width: 467px){
+	
+		
+#content_header a #logo{
+	width:300px;
+	margin:0px auto;
+}
+#facebook_icon{
+	width:20px;
+	margin:5px;
+}
+
+.toggle{
+	display:block;
+	width:100%;
+	float:left;
+	box-sizing:border-box;
+	z-index:100;
+	
+	
+}
+#fa_bar{
+	width:30px;
+	color:black;
+}
+
+#nav{
+	margin:0px;
+	padding:0px;
+	z-index:100;
+
+}
+
+#nav ul{
+	z-index:100;
+}
+
+#nav ul li{
+	width:100%;
+	display:block;
+	text-align:center;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:0px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+	z-index:100;
+}
+
+#header nav ul li.open{
+	height:auto;
+	z-index:100;
+}
+
+#nav ul li a{
+	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:3px solid black;
+	box-sizing:border-box;
+	font-size:30px;
+	margin:0px;
+	padding:20px 0px;
+	z-index:100;
+}
+
+#slide{
+	float:left;
+	width:100%;
+	height:190px;
+	position:relative;
+	top:0px;
+	margin-bottom:20px;
+}
+
+.img{
+	height:190px;
+	
+}
+#contact_header{
+	width:100%;
+	position:relative;
+	top:-100px;
+	float:left;
+	
+}
+#contact_social{
+	width:240px;
+	padding:15px;
+}
+#contact_social2{
+	width:240px;
+	padding:15px 0px;
+}
+#contact_social2 p{
+	font-size:13px;
+	padding:4px 0px;
+}
+
+#despre h1{
+	
+	font-size:45px;
+	padding:20px 0px;
+	margin-top:0px;
+}
+
+#despre p{
+	color:white;
+	font-size:15px;
+}
+
+#despre #paragraf{
+	padding:20px 60px;
+}
+
+#confort h1{
+	font-size:45px;
+	padding:30px 0px;
+}
+
+
+#confort_imagini {
+	display:flex;
+	width:100%;
+	justify-content:space-around;
+	padding:0px 30px;
+	flex-wrap:wrap;
+}
+#confort_imagini div{
+	width:250px;
+	margin-bottom:10px;
+}
+
+
+#confort_imagini p{
+	color:black;
+}
+
+#confort_imagini img{
+	width:250px;
+
+}
+
+#contact_index{
+	display:flex;
+	width:100%;
+	justify-content:space-around;
+	margin:20px 0px;
+	box-sizing:border-box;
+	padding:30px 50px;
+	text-align:center;
+	flex-wrap:wrap;
+}
+
+#contact_index p{
+	padding:5px 0px;
+}
+#contact_index div{
+	flex-basis:100%;
+	padding:0px;
+	box-sizing:border-box;
+	
+}
+
+#facilitati h2, #continut_contact h2, #harta_locatie h2{
+	padding:30px 0px;
+	border-bottom:2px solid white;
+}
+
+
+#harta iframe{
+	width:300px;
+	height:200px;
+	border:0px;
+}
+
+
+
+/*			GALERIE			*/
+
+#galerie h1{
+	font-size:45px;
+	padding:30px 0px;
+
+}
+/*			TARIFE			*/
+
+
+#tarife h1{
+	font-size:45px;
+	padding:30px 0px;
+	margin-top:0px;
+}
+
+#tarif{
+	font-size:12px;
+}
+#facilitati_tarife{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+#facilitati_unitate{
+	flex-basis:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+
+#facilitati_camera{
+	flex-basis:100%;
+}
+
+#facilitati_unitate div{
+	flex:1;
+	flex-basis:100%;
+}
+#facilitati_unitate2{
+	margin-top:0px;
+}
+
+#facilitati_camera h2{
+	margin-top:20px;
+}
+
+/*			CONTACT			*/
+
+#pagina_contact{
+	margin-top:30px;
+}
+#pagina_contact h1{
+	font-size:45px;
+	padding:30px 0px;
+}
+#date_contact{
+	margin-top:20px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+#date_contact div{
+	flex:1;
+	flex-basis:100%;
+	box-sizing:border-box;
+}
+
+#harta2 iframe{
+	width:320px;
+	height:200px;
+}
+
+
+#footer{
+	font-size:14px;
+	padding:20px 10px;
+}
+	
+}
+@media screen  and (min-width: 467px) and (max-width: 667px){
+			
+#content_header a #logo{
+	width:370px;
+	margin:0px auto;
+}
+#facebook_icon{
+	width:25px;
+	margin:5px;
+}
+
+.toggle{
+	display:block;
+	width:100%;
+	float:left;
+	box-sizing:border-box;
+	z-index:100;
+	
+	
+}
+#fa_bar{
+	width:30px;
+	color:black;
+}
+
+#nav{
+	margin:0px;
+	padding:0px;
+	z-index:100;
+
+}
+
+#nav ul{
+	z-index:100;
+}
+
+#nav ul li{
+	width:100%;
+	display:block;
+	text-align:center;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:0px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+	z-index:100;
+}
+
+#header nav ul li.open{
+	height:auto;
+	z-index:100;
+}
+
+#nav ul li a{
+	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:3px solid black;
+	box-sizing:border-box;
+	font-size:30px;
+	margin:0px;
+	padding:20px 0px;
+	z-index:100;
+}
+
+#slide{
+	float:left;
+	width:100%;
+	height:220px;
+	position:relative;
+	top:0px;
+	margin-bottom:20px;
+}
+
+.img{
+	height:220px;
+	
+}
+#contact_header{
+	width:100%;
+	position:relative;
+	top:-80px;
+	float:left;
+	
+}
+#contact_social{
+	width:320px;
+	padding:15px;
+}
+#contact_social2{
+	width:320px;
+	padding:15px 0px;
+}
+#contact_social2 p{
+	font-size:14px;
+	padding:4px 0px;
+}
+
+#despre h1{
+	
+	font-size:45px;
+	padding:20px 0px;
+	margin-top:0px;
+}
+
+#despre p{
+	color:white;
+	font-size:15px;
+}
+
+#despre #paragraf{
+	padding:20px 60px;
+}
+
+#confort h1{
+	font-size:45px;
+	padding:30px 0px;
+}
+
+
+#confort_imagini {
+	display:flex;
+	width:100%;
+	justify-content:space-around;
+	padding:0px 30px;
+	flex-wrap:wrap;
+}
+#confort_imagini div{
+	width:250px;
+	margin-bottom:10px;
+}
+
+
+#confort_imagini p{
+	color:black;
+}
+
+#confort_imagini img{
+	width:250px;
+
+}
+
+#contact_index{
+	display:flex;
+	width:100%;
+	justify-content:space-around;
+	margin:20px 0px;
+	box-sizing:border-box;
+	padding:30px 100px;
+	text-align:center;
+	flex-wrap:wrap;
+}
+
+#contact_index p{
+	padding:5px 0px;
+}
+#contact_index div{
+	flex-basis:100%;
+	padding:0px;
+	box-sizing:border-box;
+	
+}
+
+#facilitati h2, #continut_contact h2, #harta_locatie h2{
+	padding:30px 0px;
+	border-bottom:2px solid white;
+}
+
+
+#harta iframe{
+	width:350px;
+	height:200px;
+	border:0px;
+}
+
+
+
+/*			GALERIE			*/
+
+#galerie h1{
+	font-size:45px;
+	padding:30px 0px;
+
+}
+/*			TARIFE			*/
+
+
+#tarife h1{
+	font-size:45px;
+	padding:30px 0px;
+	margin-top:0px;
+}
+
+#tarif{
+	font-size:12px;
+}
+#facilitati_tarife{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+#facilitati_unitate{
+	flex-basis:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+
+#facilitati_camera{
+	flex-basis:100%;
+}
+
+#facilitati_unitate div{
+	flex:1;
+	flex-basis:100%;
+}
+
+#facilitati_unitate p, #facilitati_camera p{
+	margin:10px 100px;
+}
+#facilitati_unitate2{
+	margin-top:0px;
+}
+
+#facilitati_camera h2{
+	margin-top:20px;
+}
+
+/*			CONTACT			*/
+
+#pagina_contact{
+	margin-top:30px;
+}
+#pagina_contact h1{
+	font-size:45px;
+	padding:30px 0px;
+}
+#date_contact{
+	margin-top:20px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+#date_contact div{
+	flex:1;
+	flex-basis:100%;
+	box-sizing:border-box;
+}
+
+#harta2 iframe{
+	width:450px;
+	height:250px;
+}
+
+
+#footer{
+	font-size:14px;
+	padding:20px 10px;
+}
+}
+
+@media screen  and (min-width: 667px) and (max-width: 768px){
+	
+
+			
+#content_header a #logo{
+	width:420px;
+	margin:0px auto;
+}
+#facebook_icon{
+	width:25px;
+	margin:5px;
+}
+
+.toggle{
+	display:block;
+	width:100%;
+	float:left;
+	box-sizing:border-box;
+	z-index:100;
+	
+	
+}
+#fa_bar{
+	width:30px;
+	color:black;
+}
+
+#nav{
+	margin:0px;
+	padding:0px;
+	z-index:100;
+
+}
+
+#nav ul{
+	z-index:100;
+}
+
+#nav ul li{
+	width:100%;
+	display:block;
+	text-align:center;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:0px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+	z-index:100;
+}
+
+#header nav ul li.open{
+	height:auto;
+	z-index:100;
+}
+
+#nav ul li a{
+	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:3px solid black;
+	box-sizing:border-box;
+	font-size:35px;
+	margin:0px;
+	padding:20px 0px;
+	z-index:100;
+}
+
+#slide{
+	float:left;
+	width:100%;
+	height:240px;
+	position:relative;
+	top:0px;
+	margin-bottom:20px;
+}
+
+.img{
+	height:240px;
+	
+}
+#contact_header{
+	width:100%;
+	position:relative;
+	top:-80px;
+	float:left;
+	
+}
+#contact_social{
+	width:400px;
+	padding:15px;
+}
+#contact_social2{
+	width:400px;
+	padding:15px 0px;
+}
+#contact_social2 p{
+	font-size:14px;
+	padding:4px 0px;
+}
+
+#despre h1{
+	
+	font-size:45px;
+	padding:20px 0px;
+	margin-top:0px;
+}
+
+#despre p{
+	color:white;
+	font-size:15px;
+}
+
+#despre #paragraf{
+	padding:20px 60px;
+}
+
+#confort h1{
+	font-size:45px;
+	padding:30px 0px;
+}
+
+
+#confort_imagini {
+	display:flex;
+	width:100%;
+	justify-content:space-around;
+	padding:0px 30px;
+	flex-wrap:wrap;
+}
+#confort_imagini div{
+	width:250px;
+	margin-bottom:10px;
+}
+
+
+#confort_imagini p{
+	color:black;
+}
+
+#confort_imagini img{
+	width:250px;
+
+}
+
+#contact_index{
+	display:flex;
+	width:100%;
+	justify-content:space-around;
+	margin:20px 0px;
+	box-sizing:border-box;
+	padding:30px 140px;
+	text-align:center;
+	flex-wrap:wrap;
+}
+
+#contact_index p{
+	padding:5px 0px;
+}
+#contact_index div{
+	flex-basis:100%;
+	padding:0px;
+	box-sizing:border-box;
+	
+}
+
+#facilitati h2, #continut_contact h2, #harta_locatie h2{
+	padding:30px 0px;
+	border-bottom:2px solid white;
+}
+
+
+#harta iframe{
+	width:400px;
+	height:200px;
+	border:0px;
+}
+
+
+
+/*			GALERIE			*/
+
+#galerie h1{
+	font-size:45px;
+	padding:30px 0px;
+
+}
+/*			TARIFE			*/
+
+
+#tarife h1{
+	font-size:45px;
+	padding:30px 0px;
+	margin-top:0px;
+}
+
+#tarif{
+	font-size:12px;
+}
+#facilitati_tarife{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+#facilitati_unitate{
+	flex-basis:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+
+#facilitati_camera{
+	flex-basis:100%;
+}
+
+#facilitati_unitate div{
+	flex:1;
+	flex-basis:100%;
+}
+
+#facilitati_unitate p, #facilitati_camera p{
+	margin:10px 140px;
+}
+#facilitati_unitate2{
+	margin-top:0px;
+}
+
+#facilitati_camera h2{
+	margin-top:20px;
+}
+
+/*			CONTACT			*/
+
+#pagina_contact{
+	margin-top:30px;
+}
+#pagina_contact h1{
+	font-size:45px;
+	padding:30px 0px;
+}
+#date_contact{
+	margin-top:20px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+#date_contact div{
+	flex:1;
+	flex-basis:100%;
+	box-sizing:border-box;
+}
+
+#harta2 iframe{
+	width:550px;
+	height:250px;
+}
+
+
+#footer{
+	font-size:14px;
+	padding:20px 10px;
+}	
+}
+
+@media screen  and (min-width: 768px) and (max-width: 1024px){
+	
+#content_header a #logo{
+	width:430px;
+	margin:0px auto;
+}
+#facebook_icon{
+	width:27px;
+	margin:5px;
+}
+
+.toggle{
+	display:block;
+	width:100%;
+	float:left;
+	box-sizing:border-box;
+	z-index:100;
+	
+	
+}
+#fa_bar{
+	width:30px;
+	color:black;
+}
+
+#nav{
+	margin:0px;
+	padding:0px;
+	z-index:100;
+
+}
+
+#nav ul{
+	z-index:100;
+}
+
+#nav ul li{
+	width:100%;
+	display:block;
+	text-align:center;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:0px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+	z-index:100;
+}
+
+#header nav ul li.open{
+	height:auto;
+	z-index:100;
+}
+
+#nav ul li a{
+	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:3px solid black;
+	box-sizing:border-box;
+	font-size:35px;
+	margin:0px;
+	padding:20px 0px;
+	z-index:100;
+}
+
+#slide{
+	float:left;
+	width:100%;
+	height:300px;
+	position:relative;
+	top:0px;
+	margin-bottom:20px;
+}
+
+.img{
+	height:300px;
+	
+}
+#contact_header{
+	width:100%;
+	position:relative;
+	top:-80px;
+	float:left;
+	
+}
+#contact_social{
+	width:500px;
+	padding:17px;
+}
+#contact_social2{
+	width:500px;
+	padding:17px 0px;
+}
+#contact_social2 p{
+	font-size:14px;
+	padding:4px 0px;
+}
+
+#despre h1{
+	
+	font-size:45px;
+	padding:20px 0px;
+	margin-top:0px;
+}
+
+#despre p{
+	color:white;
+	font-size:15px;
+}
+
+#despre #paragraf{
+	padding:20px 60px;
+}
+
+#confort h1{
+	font-size:45px;
+	padding:30px 0px;
+}
+
+
+#confort_imagini {
+	display:flex;
+	width:100%;
+	justify-content:space-around;
+	padding:0px 30px;
+	flex-wrap:wrap;
+}
+#confort_imagini div{
+	width:250px;
+	margin-bottom:10px;
+}
+
+
+#confort_imagini p{
+	color:black;
+}
+
+#confort_imagini img{
+	width:250px;
+
+}
+
+#contact_index{
+	display:flex;
+	width:100%;
+	justify-content:space-around;
+	margin:20px 0px;
+	box-sizing:border-box;
+	padding:30px 160px;
+	text-align:center;
+	flex-wrap:wrap;
+}
+
+#contact_index p{
+	padding:5px 0px;
+}
+#contact_index div{
+	flex-basis:100%;
+	padding:0px;
+	box-sizing:border-box;
+	
+}
+
+#facilitati h2, #continut_contact h2, #harta_locatie h2{
+	padding:30px 0px;
+	border-bottom:2px solid white;
+}
+
+
+#harta iframe{
+	width:550px;
+	height:200px;
+	border:0px;
+}
+
+
+
+/*			GALERIE			*/
+
+#galerie h1{
+	font-size:45px;
+	padding:30px 0px;
+
+}
+/*			TARIFE			*/
+
+
+#tarife h1{
+	font-size:45px;
+	padding:30px 0px;
+	margin-top:0px;
+}
+
+#tarif{
+	font-size:12px;
+}
+#facilitati_tarife{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+#facilitati_unitate{
+	flex-basis:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+
+#facilitati_camera{
+	flex-basis:100%;
+}
+
+#facilitati_unitate div{
+	flex:1;
+	flex-basis:100%;
+}
+
+#facilitati_unitate p, #facilitati_camera p{
+	margin:10px 140px;
+}
+#facilitati_unitate2{
+	margin-top:0px;
+}
+
+#facilitati_camera h2{
+	margin-top:20px;
+}
+
+/*			CONTACT			*/
+
+#pagina_contact{
+	margin-top:30px;
+}
+#pagina_contact h1{
+	font-size:45px;
+	padding:30px 0px;
+}
+#date_contact{
+	margin-top:20px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+#date_contact div{
+	flex:1;
+	flex-basis:100%;
+	box-sizing:border-box;
+}
+
+#harta2 iframe{
+	width:600px;
+	height:250px;
+}
+
+
+#footer{
+	font-size:14px;
+	padding:20px 10px;
+}	
+	
+}
+@media screen  and (min-width: 1024px) and (max-width: 1200px){
+	
+#content_header a #logo{
+	width:460px;
+	}
+
+#slide{
+	height:350px;
+	}
+
+.img{
+	height:350px;
+	
+	}
+#contact_header{
+	top:490px;
+	
+}
+#contact_social{
+	width:530px;
+	padding:20px;
+}
+#contact_social2{
+	width:530px;
+	padding:17px 0px;
+}
+#contact_social2 p{
+	font-size:17px;
+	padding:7px 5px;
+}
+
+#confort_imagini {
+	display:flex;
+	width:100%;
+	justify-content:space-between;
+	padding:0px 30px;
+	box-sizing:border-box;
+}
+#confort_imagini div{
+	width:270px;
+}
+
+#confort_imagini div:hover{
+	opacity:0.7;
+}
+
+#confort_imagini img{
+	width:270px;
+
+}
+
+
+#contact_index{
+	display:flex;
+	width:100%;
+	justify-content:space-between;
+	margin:20px 0px;
+	box-sizing:border-box;
+	padding:20px;
+	text-align:center;
+	
+}
+
+#contact_index p{
+	padding:5px 0px;
+	border-bottom:2px solid white;
+}
+#contact_index div{
+	flex-basis:30%;
+	padding-left:30px;
+	box-sizing:border-box;
+	
+}
+
+#facilitati h2, #continut_contact h2{
+	padding-bottom:10px;
+	border-bottom:2px solid white;
+}
+#continut_contact div p a{
+	text-decoration:none;
+	color:white;
+	
+}
+
+#harta iframe{
+	width:300px;
+	height:250px;
+	border:0px;
+}
+
+
+/*			CONTACT			*/
+
+#harta2 iframe{
+	width:500px;
+
+}
+
+
+}
+

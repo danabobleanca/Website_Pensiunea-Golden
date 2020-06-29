@@ -1,0 +1,365 @@
+/*					INDEX				*/
+
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+
+header, footer, section, nav{
+	display:block;
+}
+
+body{
+	width:100%;
+	background-color:black;
+	color:white;
+	
+}
+#header{
+	text-align:center;
+	width:100%;
+}
+#content_header a #logo{
+	width:480px;
+	margin:0px auto;
+}
+#facebook_icon{
+	float:right;
+	width:30px;
+	margin:10px;
+}
+
+.toggle{
+	width:100%;
+	padding:10px 20px;
+	background-color:white;
+	float:right;
+	text-align:right;
+	font-size:25px;
+	cursor:pointer;
+	display:none;
+}
+
+#slide{
+	position:relative;
+	width:100%;
+	height:400px;
+	
+}
+
+.img{
+	position:absolute;
+	animation:mm 15s infinite;
+	opacity:0;
+	width:100%;
+	height:400px;
+	left:0;
+	top:0;
+	
+}
+
+@keyframes mm{
+	10%{opacity:1;}
+	55%{opacity:0;}
+}
+
+img:nth-child(0){animation-delay:0s}
+img:nth-child(1){animation-delay:5s}
+img:nth-child(2){animation-delay:10s}
+
+#contact_header{
+	width:100%;
+	position:absolute;
+	top:520px;
+	text-align:center;
+	
+}
+#contact_social{
+	width:600px;
+	background-color:#191919;
+	margin:0px auto;
+	padding:20px;
+}
+#contact_social2{
+	width:600px;
+	background-color:#191919;
+	margin:0px auto;
+	padding:20px 0px;
+	border:2px solid white;
+}
+#contact_social2 p{
+	font-size:17px;
+	padding:10px 0px;
+}
+nav{
+	width:100%;
+}
+
+nav ul {
+	width:100%;
+	text-align:center;
+	margin:10px 0px;
+	
+}
+
+nav ul li{
+	display:inline-block;
+	text-align:center;
+	padding:20px 0px;
+	
+}
+#nav ul li:hover{
+	background-color:#191919;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:white;
+	padding:20px 20px;
+	font-family:Edwardian Script ITC;
+	font-size:35px;
+}
+
+#despre{
+	text-align:center;
+}
+#despre h1{
+	color:white;
+	font-family:Edwardian Script ITC;
+	font-size:60px;
+	padding:30px 0px;
+	margin-top:50px;
+}
+
+#despre p{
+	color:white;
+	font-size:17px;
+}
+
+#despre #paragraf{
+	padding:30px 100px;
+}
+
+#confort{
+	text-align:center;
+}
+#confort h1{
+	font-family:Edwardian Script ITC;
+	font-size:60px;
+	padding:30px 0px;
+}
+
+#confort a{
+	text-decoration:none;
+}
+#confort_imagini {
+	display:flex;
+	width:100%;
+	justify-content:space-between;
+	padding:0px 30px;
+	box-sizing:border-box;
+}
+#confort_imagini div{
+	width:350px;
+	text-align:center;
+	border:5px solid white;
+}
+
+#confort_imagini div:hover{
+	opacity:0.7;
+}
+
+#confort_imagini p{
+	padding:10px 0px;
+	background-color:white;
+	color:black;
+	font-weight:bold;
+	box-sizing:border-box;
+}
+
+#confort_imagini img{
+	width:350px;
+
+}
+
+#contact_index{
+	display:flex;
+	width:100%;
+	justify-content:space-between;
+	margin:20px 0px;
+	box-sizing:border-box;
+	padding:20px;
+	text-align:center;
+	
+}
+
+#contact_index p{
+	padding:5px 0px;
+	border-bottom:2px solid white;
+}
+#contact_index div{
+	flex-basis:30%;
+	padding-left:30px;
+	box-sizing:border-box;
+	
+}
+
+#facilitati h2, #continut_contact h2{
+	padding-bottom:10px;
+	border-bottom:2px solid white;
+}
+#continut_contact div p a{
+	text-decoration:none;
+	color:white;
+	
+}
+
+#harta iframe{
+	width:500px;
+	height:250px;
+	border:0px;
+}
+
+
+
+/*			GALERIE			*/
+#galerie{
+	text-align:center;
+}
+#galerie h1{
+	font-size:60px;
+	font-family:Edwardian Script ITC;
+	padding:30px 0px;
+	margin-top:50px;
+
+}
+.galerie img{
+	width:230px;
+	padding:5px;
+	filter:grayscale(60%);
+	transition:0.5s;
+}
+
+.galerie img:hover{
+	filter:grayscale(0);
+	transform:scale(1.1);
+}
+
+/*			TARIFE			*/
+
+#tarife{
+	text-align:center;
+}
+#tarife h1{
+	font-size:60px;
+	font-family:Edwardian Script ITC;
+	padding:30px 0px;
+	margin-top:50px;
+}
+
+#tarif{
+	font-size:12px;
+}
+#facilitati_tarife{
+	display:flex;
+	width:100%;
+	margin-top:50px;
+}
+#facilitati_unitate{
+	flex-basis:70%;
+	display:flex;
+}
+
+#facilitati_unitate2{
+	margin-top:45px;
+}
+#facilitati_tarife h2{
+	padding-bottom:20px;
+}
+
+#facilitati_unitate p{
+	background-color:white;
+	margin:10px 60px;
+	color:black;
+	padding:3px 0px;
+	font-weight:bold;
+}
+
+#facilitati_camera{
+	flex-basis:30%;
+}
+
+#facilitati_unitate div{
+	flex:1;
+}
+
+#facilitati_camera p{
+	background-color:#d3d3d3;
+	margin:10px 60px;
+	color:black;
+	padding:3px 0px;
+	font-weight:bold;
+}
+
+/*			CONTACT			*/
+#pagina_contact{
+	text-align:center;
+	padding-top:30px;
+	
+}
+#pagina_contact h1{
+	font-size:60px;
+	font-family:Edwardian Script ITC;
+	padding:30px 0px;
+}
+#date_contact{
+	width:100%;
+	background-image:url(../imagini/poarta_sarutului.jpg);
+	display:flex;
+	padding:30px;
+	box-sizing:border-box;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+
+#date_contact div{
+	flex:1;
+	margin:10px;
+	padding:15px;
+	opacity:0.9;
+	font-size:17px;
+	font-weight:bold;
+	
+}
+
+#date_contact2 div{
+	background-color:black;
+
+}
+
+#date_contact div a{
+	text-decoration:none;
+	color:white;
+}
+
+#harta2{
+	border:5px solid black;
+	background-color:black;
+}
+#harta2 iframe{
+	width:600px;
+	height:300px;
+}
+
+#footer{
+	text-align:center;
+	padding:20px 0px;
+}
+
+#footer a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
